@@ -1,0 +1,22 @@
+{
+  "name": "upsoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-middle-sass": "^1.0.2",
+    "electron-prebuilt-compile": "^4.0.0",
+    "electron-reload": "^1.4.0",
+    "parcel": "^1.12.3",
+    "sass": "^1.18.0"
+  },
+  "dependencies": {
+  }
+}

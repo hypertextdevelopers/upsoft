@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #666666;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../../assets/25231.png');
+    background-position: center 400px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+}

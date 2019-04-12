@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Upsoft</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./styles/modules/settings.css">
+    <link rel="stylesheet" href="./styles/modules/form.css">
+    <link rel="stylesheet" href="./styles/modules/loader.css">
+    <link rel="stylesheet" href="./styles/modules/ul.css">
+    <link rel="stylesheet" href="./styles/modules/error-modal.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script src="./js/modules/form-controller.js"></script>
+    <script src="./js/modules/form-button.js"></script>
+    <script src="./js/modules/api.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="" class="form">
+            <div class="form__left">
+                <input type="text" class="form__left__input" placeholder="Find a github user">
+                <div class="form__left__border"></div>
+            </div>
+            <div class="form__right">
+                <div class="form__right__border-top"></div>
+                <div class="form__right__border-right"></div>
+                <div class="form__right__border-bottom"></div>
+                <div class="form__right__border-left"></div>
+                <button class="form__right__button">Search</button>
+            </div>
+        </form>
+        <div class="loader">
+            <img src="./assets/ball-triangle.svg" class="loader__svg" alt="loading svg">
+        </div>
+        <div class="error-modal">
+            <div class="error-modal__top">
+                <i class="far fa-times-circle error-modal__top__icon"></i>
+            </div>
+            <div class="error-modal__bottom">
+                <h1 class="error-modal__bottom__h1">Ooops!</h1>
+                <p class="error-modal__bottom__p">Something went wrong. Make sure that user you are looking at exists.</p>
+            </div>
+        </div>
+        <div class="ul-wrapper">
+            <ul class="ul-wrapper__ul"></ul>
+        </div>
+    </div>
+</body>
+</html>
